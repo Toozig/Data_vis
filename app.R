@@ -11,8 +11,8 @@ source("data_processing.R")
 library(spotifyr)
 library(shiny)
 Sys.setlocale("LC_ALL", "Hebrew")
-Sys.setenv(SPOTIFY_CLIENT_ID = '4cc0d73dc6ae4e64b7318da7236f7f04')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '3a88b3d055854dcb9cfe1a1ed8784942')
+Sys.setenv(SPOTIFY_CLIENT_ID = 'XXXXXXXXXXXXXXX')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = 'XXXXXXXXXXXXXXXXXXXXX')
 Sys.setenv(SPOTIFY_REDIRECT_URI= "http://localhost//")
 # Define UI for application that draws a histogram
 ui <- fluidPage(
